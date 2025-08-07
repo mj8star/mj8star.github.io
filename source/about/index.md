@@ -10,3 +10,4 @@ date: 2025-02-10 09:56:03
 3. [wise申请链接](https://wise.com/invite/ihpn/wenchaol11)
 4. Anytime Mailbox 申请链接
 5. [搬瓦工申请链接](https://bandwagonhost.com/aff.php?aff=46572)
+6. [Tello mobile注册送$10](https://tello.com/account/register?_referral=P38J5BG9)
