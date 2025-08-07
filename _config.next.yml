@@ -115,10 +115,22 @@ menu:
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
 
+## sub menus
+  # Docs:
+  #   default: /docs/ || fa fa-book
+  #   Getting Started:
+  #     default: /getting-started/ || fa fa-flag
+  #     Installation: /installation.html || fa fa-download
+  #     Configuration: /configuration.html || fa fa-wrench
+  #   Third Party Plugins:
+  #     default: /third-party-services/ || fa fa-puzzle-piece
+  #     Math Equations: /math-equations.html || fa fa-square-root-alt
+  #     Comment Systems: /comments.html || fa fa-comment-alt
+
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: false
+  badges: true
 
 
 # ---------------------------------------------------------------
@@ -153,11 +165,11 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: #/images/avatar.gif
+  url: /images/avatar.jpeg
   # If true, the avatar will be displayed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
-  rotated: false
+  rotated: true
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
@@ -167,19 +179,19 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-#GitHub: https://github.com/yourname || fab fa-github
-#E-Mail: mailto:yourname@gmail.com || fa fa-envelope
-#Weibo: https://weibo.com/yourname || fab fa-weibo
-#Twitter: https://twitter.com/yourname || fab fa-twitter
-#FB Page: https://www.facebook.com/yourname || fab fa-facebook
-#StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
-#YouTube: https://youtube.com/yourname || fab fa-youtube
-#Instagram: https://instagram.com/yourname || fab fa-instagram
-#Skype: skype:yourname?call|chat || fab fa-skype
+  GitHub: https://github.com/mj8star || fab fa-github
+  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  #Weibo: https://weibo.com/yourname || fab fa-weibo
+  #Twitter: https://twitter.com/yourname || fab fa-twitter
+  #FB Page: https://www.facebook.com/yourname || fab fa-facebook
+  #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
+  #YouTube: https://youtube.com/yourname || fab fa-youtube
+  #Instagram: https://instagram.com/yourname || fab fa-instagram
+  #Skype: skype:yourname?call|chat || fab fa-skype
 
 social_icons:
   enable: true
-  icons_only: false
+  icons_only: true
   transition: false
 
 # Blog rolls
@@ -211,7 +223,7 @@ toc:
 # ---------------------------------------------------------------
 
 # Show multilingual switcher in footer.
-language_switcher: false
+language_switcher: true
 
 footer:
   # Specify the year when the site was setup. If not defined, current year will be used.
@@ -231,7 +243,7 @@ footer:
   copyright:
 
   # Powered by Hexo & NexT
-  powered: true
+  powered: false
 
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, https://beian.mps.gov.cn
   beian:
