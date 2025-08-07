@@ -64,9 +64,7 @@ favicon:
 custom_logo: #/uploads/custom-logo.png
 
 
-language:
-  - zh-CN
-  - en
+
 
 
 # Creative Commons 4.0 International License.
@@ -108,7 +106,7 @@ open_graph:
 menu:
   home: / || fa fa-home
   about: /about/ || fa fa-user
-  tags: /tags/ || fa fa-tags
+  # tags: /tags/ || fa fa-tags
   # categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar

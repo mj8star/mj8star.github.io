@@ -8,7 +8,9 @@ subtitle: ''
 description: '生活学习,记录日常'
 keywords: hexo,blog,Alex
 author: Alex
-language: zh-CN
+language:
+  - zh-CN
+  - en
 timezone: 'Asia/Shanghai'
 
 # URL
