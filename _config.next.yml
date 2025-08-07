@@ -17,7 +17,7 @@ cache:
   enable: true
 
 # Remove unnecessary files after hexo generate.
-minify: false
+minify: true
 
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
@@ -40,10 +40,10 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
-#scheme: Gemini
+# scheme: Muse
+# scheme: Mist
+# scheme: Pisces
+scheme: Gemini
 
 # Dark Mode
 darkmode: false
@@ -62,6 +62,12 @@ favicon:
 
 # Custom Logo (Warning: Do not support scheme Mist)
 custom_logo: #/uploads/custom-logo.png
+
+
+language:
+  - zh-CN
+  - en
+
 
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/about/cclicenses/
@@ -99,11 +105,11 @@ open_graph:
 # Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.
 # External url should start with http:// or https://
 menu:
-#home: / || fa fa-home
-#about: /about/ || fa fa-user
-#tags: /tags/ || fa fa-tags
-#categories: /categories/ || fa fa-th
-#archives: /archives/ || fa fa-archive
+home: / || fa fa-home
+about: /about/ || fa fa-user
+tags: /tags/ || fa fa-tags
+categories: /categories/ || fa fa-th
+archives: /archives/ || fa fa-archive
 #schedule: /schedule/ || fa fa-calendar
 #sitemap: /sitemap.xml || fa fa-sitemap
 #commonweal: /404/ || fa fa-heartbeat

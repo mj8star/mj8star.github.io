@@ -1,7 +1,9 @@
 ---
 title: PAYPAL 50刀羊毛 速领！
 date: 2025-08-05 09:23:22
-tags: 薅羊毛
+tags: 
+    - 薅羊毛
+    - paypal
 ---
 
 
