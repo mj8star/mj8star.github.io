@@ -9,6 +9,10 @@ on:
     branches:
       - master
 
+# 添加 permissions 配置
+permissions:
+  contents: write # 授予写入仓库内容的权限
+  
 # 工作流由一个或多个任务组成
 jobs:
   build-and-deploy:
