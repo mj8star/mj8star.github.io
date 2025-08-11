@@ -1,7 +1,9 @@
 ---
-title: About me
+title: About
 date: 2025-02-10 09:56:03
 ---
+
+
 
 ### Rewards 羊毛奖励
 1. [Capital One申请链接](https://i.capitalone.com/GmOMulMDp)
