@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Alex's blog
+title: 52周之神
 subtitle: ''
-description: '生活学习,记录日常'
+description: '投资理财、生活学习、记录日常'
 keywords: hexo,blog,Alex
 author: Alex
 language:
@@ -15,7 +15,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://gogoying.pp.ua
+url: https://godof52.xyz
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
